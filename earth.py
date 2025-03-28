@@ -3,7 +3,12 @@ def earth():
     y = "Barbados"
     ToF1 = bool()
     ToF2 = bool()
-    for i in range(50):#no hay paises con mas de 50 letras
+    if len(x)<len(y):
+        longitud = len(x)
+    else:
+        longitud = len(y)
+
+    for i in range(longitud):
         if x[i] < y[i]:
             ToF1 = True
             ToF2 = False
