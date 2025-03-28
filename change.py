@@ -8,13 +8,9 @@ def change():
     print(expense)
     print("dinero recibido: ")
     print(money)
-
     print("\n")
-
     print("Vuelto: ")
-
     print("\n")
-
     print("Pesos: ")
     print(Pesos)
     print("Centavos: ")
